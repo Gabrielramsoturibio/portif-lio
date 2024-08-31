@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfólio de Gabriel Ramos Turibio</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>Gabriel Ramos Turibio</h1>
+			<nav>
+				<ul>
+			<div class="tabs">
+				<div class="tab-buttons">
+					<button class="tab-button active" data-tab="sobre">Sobre Mim</button>
+					<button class="tab-button" data-tab="habilidades">Habilidades</button>
+					<button class="tab-button" data-tab="projetos">Projetos</button>
+					<button class="tab-button" data-tab="experiencia">Cursos</button>
+					<button class="tab-button" data-tab="entre-em-contato">Entre em Contato</button>
+				</div>
+
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="intro">
+		<div class="container">
+			<h2>Bem-vindo ao meu portfólio</h2>
+			<p>Olá, meu nome é Gabriel Ramos Turibio. Sou um progamador aprendiz com experiência em letramentro digigal, Desemvolvimento Web, Ingles básico, Raciocinio lógico. Meu objetivo é me especializar na área de criação de site e me torna um desemvolvedor profissional. Navegue pelas abas abaixo
+				para conhecer mais sobre mim, minhas habilidades, meus projetos, minha experiência e como você pode
+				entrar em contato comigo.</p>
+		</div>
+	</section>
+
+		<div class="tab-content" id="sobre">
+			<div class="container">
+				<h2>Sobre Mim</h2>
+				<p>[Meu nome é Gabriel, tenho 16 anos e atualmente estou cursando o segundo ano do ensino médio. Além disso, estou
+				realizando um curso técnico em logística e um curso de criação de sites. Moro em Palmas, TO, e essas experiências estão
+				ampliando minhas habilidades e conhecimentos, preparando-me para um futuro promissor tanto na área de logística quanto
+				no desenvolvimento web.]</p>
+			</div>
+		</div>
+		<div class="tab-content" id="habilidades">
+			<div class="container">
+				<h2>Habilidades</h2>
+				<ul>
+					<li>[Organizado]</li>
+					<li>[profissional]</li>
+					<li>[Criativo]</li>
+							<li>[Comunicação ]</li>
+								<li>[pontual]</li>
+					<!-- Adicione mais habilidades conforme necessário -->
+				</ul>
+			</div>
+		</div>
+		<div class="tab-content" id="projetos">
+			<div class="container">
+				<h1>Projetos</h1>
+
+				<div class="projeto">
+					<h1>[Ola mundo]</h1>
+					<p>[Foi um projeto que eu realizei durante o meu curso de criação de site que iniciou o meu caminho na profissão de
+					programador]Durante meu curso de criação de sites, desenvolvi um projeto significativo que marcou o início da minha trajetória na
+					programação. O desafio foi criar um site com funcionalidades semelhantes ao iFood, uma renomada plataforma de entrega de
+					alimentos utilizando o codigo inicial chamado de Ola Mundo.</p>
+					<a href="[link do projeto]" target="_blank">Veja o projeto</a>
+				</div>
+
+						<div class="projeto">
+							<h1>[Cria um site semenhante ao de Ifood]</h1>
+							<p>Durante meu curso de criação de sites, desenvolvi um projeto desafiador utilizando a plataforma JSitor. O objetivo era
+								criar um site com funcionalidades semelhantes ao iFood, um dos líderes em plataformas de entrega de alimentos.</p>
+							<a href="[link do projeto]" target="_blank">Veja o projeto</a>
+						</div>
+				<!-- Adicione mais projetos conforme necessário -->
+			</div>
+		</div>
+
+
+
+
+		<div class="tab-content" id="experiencia">
+			<div class="container">
+				<h1>Cursos</h1>
+
+				<div class="experiencia">
+					<h1>[Informatica Básica]</h1>
+					<p>[Realizei um curso de informática básica, que se estendeu do meio do ano passado até o meio deste ano. Este curso foi
+					fundamental para minha especialização na área e me proporcionou um conhecimento mais aprofundado sobre o funcionamento
+					dos computadores.]</p>
+					<p>[04/08/2023]</p>
+				</div>
+
+						<div class="experiencia">
+							<h1>[logistica]</h1>
+							<p>[Atualmente, estou realizando um curso técnico em logística, que começou no início de 2024 e continuará até o final de
+							2025, coincidindo com a conclusão do meu ensino médio. Ao finalizar este curso, eu receberei certificados tanto de
+							conclusão do ensino médio quanto de técnico em logística.]</p>
+							<p>[03/02/2023]</p>
+						</div>
+				<!-- Adicione mais experiências conforme necessário -->
+			</div>
+		</div>
+
+		</div>
+		<div class="tab-content" id="entre-em-contato">
+			<div class="container">
+				<h2>Entre em Contato</h2>
+				<form action="[URL para onde o formulário deve ser enviado]" method="post">
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome" required>
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="mensagem">Mensagem:</label>
+					<textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 Gabriel Ramos Turibio. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
